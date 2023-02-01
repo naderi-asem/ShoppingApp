@@ -1,0 +1,22 @@
+.selectContainer {
+    display: flex;
+    /* width: 30%; */
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.selectContainer select {
+    /* width: 100px; */
+    min-width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: #8f2323;
+    padding: 0 0.5rem;
+}
+
+.selectContainer select:focus {
+    border: 1px solid #b4b0b0;
+}

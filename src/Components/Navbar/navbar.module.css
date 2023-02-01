@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 24px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 26px;
+    color: #7d7d7d;
+}
+
+.icon_box {
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon_box span {
+    position: absolute;
+    font-size: 13px;
+    font-weight: bolder;
+    width: 16px;
+    height: 16px;
+    top: -3px;
+    right: 6px;
+    border: 1px solid #d50e0e;
+    border-radius: 100%;
+    /* background-color: #b7ced0; */
+    color: #d50e0e;
+    display: flex;
+    place-content: center;
+}

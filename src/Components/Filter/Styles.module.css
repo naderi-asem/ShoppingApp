@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.selectElements{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    width:inherit;
+    padding: 16px;
+    color: #353434;
+}
+
+
+/* .selectBox {
+    min-width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: #8f2323;
+}
+
+.selectBox:focus {
+    border: 1px solid #b4b0b0;
+} */

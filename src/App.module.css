@@ -1,0 +1,31 @@
+.app_container {
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.items_box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.app_title {
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #222222;
+    padding: 32px;
+}
+
+.btn {
+    padding: 1rem;
+    width: 300px;
+    border: 2px solid #b5b5b5;
+    border-radius: 0.5rem 1rem;
+    background-color: #fff;
+    cursor: pointer;
+}

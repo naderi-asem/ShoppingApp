@@ -1,0 +1,20 @@
+.formControl {
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 1rem;
+}
+
+.formControl input {
+    width: 26rem;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0 8px;
+}
+
+.formControl input:focus {
+    outline: 1px solid #909090;
+}

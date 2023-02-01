@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+// import Product from "./Components/Product/Product";
+import React from 'react';
+import appStyles from './App.module.css';
+import Navbar from './Components/Navbar/Navbar';
+import ProductList from "./Components/ProductList/ProductList";
+import ProductProvider from './Components/Providers/ProductProvider';
+import Filter from './Components/Filter/Filter';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// import SearchBar from './Common/SearchBar/SearchBar';
+
+
+const App = () => {
+    return (
+        <>
+            <ProductProvider>
+                <div className={appStyles.app_container} id='container'>
+                    <Navbar />
+                    <h1 className={`${appStyles.app_title}`}>Shopping App</h1>
+                    {/* <SearchBar /> */}
+                    <Filter />
+                    <div className={appStyles.items_box}>
+                        <ProductList />
+                    </div>
+                </div>
+            </ProductProvider>
+        </>
+    );
 }
 
 export default App;
